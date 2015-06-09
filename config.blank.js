@@ -11,6 +11,12 @@ CKEDITOR.editorConfig = function( config ) {
 	config.skin = 'moonocolor';
 	// %REMOVE_END%
 
+	config.allowedContent = true;
+	//config.contentsCss = CKEDITOR.getUrl( '/assets/css/style.css' );
+	//config.contentsCss = CKEDITOR.getUrl( '/assets/css/index.css', '/assets/css/style.css', '/assets/css/fonts.css', '/assets/css/common.css' );
+	//config.contentsCss = CKEDITOR.getUrl( '/assets/css/style.css', '/assets/css/index.css', '/assets/css/fonts.css', '/assets/css/common.css' );
+
+
 	// Define changes to default configuration here. For example:
 	// config.language = 'fr';
 	// config.uiColor = '#AADC6E';
